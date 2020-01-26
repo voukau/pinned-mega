@@ -1,0 +1,33 @@
+{
+
+    "manifest_version": 2,
+    "name": "Pinned MEGA Cloud",
+    "version": "2.0",
+  
+    "description": "Opens new tab with mega.nz or switches to it if it's already open.",
+  
+    "icons": {
+        "16": "icons/icon_16.png",
+        "48": "icons/icon_48.png",
+        "128": "icons/icon_128.png"
+    },
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "browser_action": {
+        "default_icon": {
+          "32": "icons/icon_32.png"
+        },
+        "default_title": "MEGA",
+        "default_area": "navbar"
+    },
+
+    "background": {
+        "scripts": ["mega.js"]
+    }
+  
+  }
+  
+  
