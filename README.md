@@ -1,4 +1,5 @@
 # About
+![Mozilla Add-on](https://img.shields.io/amo/users/pinned-mega-cloud)
 
 Pinned Mega is a simple browser extenstion that opens a new [mega.nz](https://mega.nz) tab or switches to it if it's already open.
 
